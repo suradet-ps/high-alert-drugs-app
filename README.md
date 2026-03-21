@@ -1,21 +1,21 @@
 # High Alert Drugs App
 
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D)](https://vuejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)](https://supabase.com/)
+[![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 
 A modern, responsive web application designed to provide healthcare professionals with quick and reliable access to information regarding **High-Alert Drugs**. Built with performance and usability in mind, this application ensures that critical drug safety information is available at the point of care.
 
-## ✨ Key Features
+## Key Features
 
--   **🔍 Instant Search**: Rapidly search for high-alert medications by generic name or trade name.
--   **📄 Detailed Drug Monographs**: Access comprehensive details including dosage, administration, side effects, and monitoring parameters.
--   **📱 Progressive Web App (PWA)**: Installable on mobile devices for an app-like experience with offline capabilities.
--   **⚡ Blazing Fast Performance**: Powered by Vite and Vue 3 for a smooth, reactive user interface.
--   **🇹🇭 Localized Content**: Optimized for Thai healthcare settings with the Prompt font family.
+-   **Instant Search**: Rapidly search for high-alert medications by generic name or trade name.
+-   **Detailed Drug Monographs**: Access comprehensive details including dosage, administration, side effects, and monitoring parameters.
+-   **Progressive Web App (PWA)**: Installable on mobile devices for an app-like experience with offline capabilities.
+-   **Blazing Fast Performance**: Powered by Vite and Vue 3 for a smooth, reactive user interface.
+-   **Localized Content**: Optimized for Thai healthcare settings with the Prompt font family.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Frontend Framework**: [Vue 3](https://vuejs.org/) (Composition API)
 -   **Build Tool**: [Vite](https://vitejs.dev/)
@@ -24,7 +24,7 @@ A modern, responsive web application designed to provide healthcare professional
 -   **Typography**: [Prompt](https://fonts.google.com/specimen/Prompt) via `@fontsource/prompt`.
 -   **PWA Support**: `vite-plugin-pwa`
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up the project locally for development.
 
@@ -59,7 +59,7 @@ Follow these instructions to set up the project locally for development.
     ```
     Open your browser and navigate to `http://localhost:5173`.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 high-alert-drugs-app/
@@ -76,7 +76,7 @@ high-alert-drugs-app/
 └── vite.config.js       # Vite configuration
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -86,12 +86,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4.  Push to the branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## ✍️ Author
+## Author
 
 **Suradet Pratomsak**
 -   *Expert Pharmacist, Sabot Hospital*
 -   *Full-Stack Developer Enthusiast*
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
