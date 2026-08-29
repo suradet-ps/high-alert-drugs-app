@@ -1,97 +1,131 @@
 # High Alert Drugs App
 
-[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D)](https://vuejs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)](https://supabase.com/)
-[![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-
-A modern, responsive web application designed to provide healthcare professionals with quick and reliable access to information regarding **High-Alert Drugs**. Built with performance and usability in mind, this application ensures that critical drug safety information is available at the point of care.
-
-## Key Features
-
--   **Instant Search**: Rapidly search for high-alert medications by generic name or trade name.
--   **Detailed Drug Monographs**: Access comprehensive details including dosage, administration, side effects, and monitoring parameters.
--   **Progressive Web App (PWA)**: Installable on mobile devices for an app-like experience with offline capabilities.
--   **Blazing Fast Performance**: Powered by Vite and Vue 3 for a smooth, reactive user interface.
--   **Localized Content**: Optimized for Thai healthcare settings with the Prompt font family.
-
-## Tech Stack
-
--   **Frontend Framework**: [Vue 3](https://vuejs.org/) (Composition API)
--   **Build Tool**: [Vite](https://vitejs.dev/)
--   **Database & Backend**: [Supabase](https://supabase.com/)
--   **Styling**: Custom CSS with CSS Variables for theming.
--   **Typography**: [Prompt](https://fonts.google.com/specimen/Prompt) via `@fontsource/prompt`.
--   **PWA Support**: `vite-plugin-pwa`
-
-## Getting Started
-
-Follow these instructions to set up the project locally for development.
-
-### Prerequisites
-
--   [Node.js](https://nodejs.org/) (v16.0.0 or higher)
--   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/your-username/high-alert-drugs-app.git
-    cd high-alert-drugs-app
-    ```
-
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-3.  **Configure Environment Variables**
-    Create a `.env` file in the root directory and add your Supabase credentials:
-    ```env
-    VITE_SUPABASE_URL=your_supabase_project_url
-    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-    ```
-
-4.  **Run the development server**
-    ```bash
-    npm run dev
-    ```
-    Open your browser and navigate to `http://localhost:5173`.
-
-## Project Structure
-
 ```
-high-alert-drugs-app/
-├── public/              # Static assets (icons, manifest)
-├── src/
-│   ├── components/      # Vue components (DrugSearch, DrugDetailModal)
-│   ├── lib/             # Library configurations (Supabase client)
-│   ├── App.vue          # Root component
-│   ├── main.js          # Application entry point
-│   └── style.css        # Global styles
-├── .env                 # Environment variables (not committed)
-├── index.html           # HTML entry point
-├── package.json         # Project dependencies and scripts
-└── vite.config.js       # Vite configuration
+██╗  ██╗██╗ ██████╗██╗  ██╗ █████╗ ██╗     ███████╗██████╗ ████████╗
+██║  ██║██║██╔════╝██║  ██║██╔══██╗██║     ██╔════╝██╔══██╗╚══██╔══╝
+███████║██║██║  ███╗███████║███████║██║     █████╗  ██████╔╝   ██║
+██║  ██║██║██║   ██║██║  ██║██╔══██║██║     ██╔══╝  ██╔══██╗   ██║
+██║  ██║██║╚██████╔╝██║  ██║██║  ██║███████╗███████╗██║  ██║   ██║
+╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝   ╚═╝
 ```
 
-## Contributing
+---
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## ◆ PULSE
 
-1.  Fork the project
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+A high-alert drug does not announce its risk on the label; the
+pharmacist must already know. This app puts the knowledge at the point
+of care: instant search across high-alert medications by generic or
+trade name, full monographs - dosage, administration, side effects,
+monitoring parameters - and an installable PWA that keeps the answers
+offline, in the pocket, in the ward. Optimized for Thai healthcare
+settings, from the Prompt typeface to the screens it sits on.
 
-## Author
+| Search ▣ | Monographs ▣ | Offline PWA ▣ | Thai-first ▣ |
+|---|---|---|---|
 
-**Suradet Pratomsak**
--   *Expert Pharmacist, Sabot Hospital*
--   *Full-Stack Developer Enthusiast*
+*The reference - search, monograph, install - is sealed.*
 
-## License
+> Built with Vue 3 + Vite, backed by Supabase, shipped as an
+> installable PWA to Firebase Hosting.
+>
+> **suradet-ps**, artifact keeper
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## ◆ IGNITION
+
+One runtime, four commands.
+
+```
+⟫ git clone https://github.com/suradet-ps/high-alert-drugs-app.git
+⟫ cd high-alert-drugs-app
+⟫ npm install
+⟫ npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173).
+
+<details>
+<summary>Environment</summary>
+
+A `.env` file with the Supabase credentials:
+
+```
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+</details>
+
+---
+
+## ◆ ANATOMY
+
+One search box, one monograph, a reference that never needs a signal.
+
+- **Searches** - instant lookup by generic or trade name - the drug
+  answers as the letters land, no submit, no waiting.
+- **Explains** - each monograph carries dosage, administration, side
+  effects, and monitoring parameters - the four questions a
+  pharmacist asks before any high-alert order.
+- **Installs** - a `vite-plugin-pwa` service worker makes the app
+  installable and offline-capable: the ward's wifi dies and the
+  reference does not.
+- **Renders** - Vue 3 reactivity with custom CSS variables theming,
+  and the Prompt font family tuned for Thai text - the page reads
+  like the setting it serves.
+- **Serves** - Supabase holds the monograph data; the client fetches
+  and caches; Firebase Hosting ships the build.
+
+---
+
+## ◆ RITUALS
+
+**The core ceremony** - the point-of-care lookup:
+
+1. Open the app - installed on the phone, ready in the ward.
+2. Type the drug's name, generic or trade. The list answers as you
+   type.
+3. Open the monograph: dosage, administration, side effects,
+   monitoring - the four questions answered on one screen.
+4. Close it. The knowledge stays in the pocket, and in the cache.
+
+**The ceremony of the offline ward** - the network drops mid-shift
+and the reference does not flinch: the monographs were cached when
+the phone was online, so the care never waits on a spinner.
+
+**The ceremony of the Thai page** - the interface is built for the
+setting it serves: Thai healthcare, Thai typeface, and answers that
+read in the language the ward speaks.
+
+---
+
+## ◆ ECHOES
+
+**Where this artifact is heading**
+
+```
+search    ▸ generic + trade name instant lookup ─────────────────────── ▸ sealed
+monograph ▸ dosage, administration, side effects, monitoring ────────── ▸ sealed
+offline   ▸ installable PWA, cached reference ───────────────────────── ▸ sealed
+localize  ▸ Prompt typography for Thai settings ─────────────────────── ▸ sealed
+```
+
+**Raising the artifact** - the Supabase client lives in `src/lib/`;
+the components in `src/components/`. Open an issue first to discuss
+a change.
+
+**Status** - dependencies are maintained through Renovate; releases
+deploy to Firebase Hosting.
+
+---
+
+```
+  ─────────────────────────────────────────
+   A high-alert drug forgiven once
+   is a high-alert drug remembered forever.
+  ─────────────────────────────────────────
+```
+
+Licensed under the [MIT License](LICENSE).
