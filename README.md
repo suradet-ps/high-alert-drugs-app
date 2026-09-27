@@ -1,13 +1,11 @@
 # High Alert Drugs App
 
-```
-██╗  ██╗██╗ ██████╗██╗  ██╗ █████╗ ██╗     ███████╗██████╗ ████████╗
-██║  ██║██║██╔════╝██║  ██║██╔══██╗██║     ██╔════╝██╔══██╗╚══██╔══╝
-███████║██║██║  ███╗███████║███████║██║     █████╗  ██████╔╝   ██║
-██║  ██║██║██║   ██║██║  ██║██╔══██║██║     ██╔══╝  ██╔══██╗   ██║
-██║  ██║██║╚██████╔╝██║  ██║██║  ██║███████╗███████╗██║  ██║   ██║
-╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝   ╚═╝
-```
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Vue v3](https://img.shields.io/badge/Vue-v3-4FC08D.svg?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![Vite v7](https://img.shields.io/badge/Vite-v7-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Supabase v2](https://img.shields.io/badge/Supabase-v2-3FCF8E.svg?logo=supabase&logoColor=white)](https://supabase.com/)
+[![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8.svg?logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/suradet-ps/high-alert-drugs-app/issues)
 
 ---
 
